@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-26T02:22:28 EET" name="Suite" finished-at="2025-02-26T02:22:34 EET" duration-ms="6038">
+    <groups>
+    </groups>
+    <test started-at="2025-02-26T02:22:28 EET" name="Test" finished-at="2025-02-26T02:22:34 EET" duration-ms="6038">
+      <class name="tests.CreateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateUserTest@79e2c065]" started-at="2025-02-26T02:22:28 EET" name="setup" finished-at="2025-02-26T02:22:29 EET" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateUser()[pri:0, instance:tests.CreateUserTest@79e2c065]" started-at="2025-02-26T02:22:29 EET" name="testCreateUser" finished-at="2025-02-26T02:22:32 EET" duration-ms="3691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+      </class> <!-- tests.CreateUserTest -->
+      <class name="tests.CreateUserErrorTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateUserErrorTest@8f4ea7c]" started-at="2025-02-26T02:22:33 EET" name="setup" finished-at="2025-02-26T02:22:33 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidUserCreation()[pri:0, instance:tests.CreateUserErrorTest@8f4ea7c]" started-at="2025-02-26T02:22:33 EET" name="testInvalidUserCreation" finished-at="2025-02-26T02:22:34 EET" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserCreation -->
+        <test-method signature="testInvalidUserCreationWithMalformedJSON()[pri:0, instance:tests.CreateUserErrorTest@8f4ea7c]" started-at="2025-02-26T02:22:34 EET" name="testInvalidUserCreationWithMalformedJSON" finished-at="2025-02-26T02:22:34 EET" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserCreationWithMalformedJSON -->
+      </class> <!-- tests.CreateUserErrorTest -->
+      <class name="tests.GetUserErrorTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GetUserErrorTest@223d2c72]" started-at="2025-02-26T02:22:33 EET" name="setup" finished-at="2025-02-26T02:22:33 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetNonExistentUser()[pri:0, instance:tests.GetUserErrorTest@223d2c72]" started-at="2025-02-26T02:22:33 EET" name="testGetNonExistentUser" finished-at="2025-02-26T02:22:33 EET" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNonExistentUser -->
+      </class> <!-- tests.GetUserErrorTest -->
+      <class name="tests.UpdateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UpdateUserTest@36902638]" started-at="2025-02-26T02:22:33 EET" name="setup" finished-at="2025-02-26T02:22:33 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdateUser()[pri:0, instance:tests.UpdateUserTest@36902638]" started-at="2025-02-26T02:22:33 EET" name="testUpdateUser" finished-at="2025-02-26T02:22:33 EET" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- tests.UpdateUserTest -->
+      <class name="tests.UpdateUserErrorTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UpdateUserErrorTest@436813f3]" started-at="2025-02-26T02:22:34 EET" name="setup" finished-at="2025-02-26T02:22:34 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdateNonExistentUser()[pri:0, instance:tests.UpdateUserErrorTest@436813f3]" started-at="2025-02-26T02:22:34 EET" name="testUpdateNonExistentUser" finished-at="2025-02-26T02:22:34 EET" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateNonExistentUser -->
+      </class> <!-- tests.UpdateUserErrorTest -->
+      <class name="tests.GetUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GetUserTest@1d2adfbe]" started-at="2025-02-26T02:22:32 EET" name="setup" finished-at="2025-02-26T02:22:32 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetUser()[pri:0, instance:tests.GetUserTest@1d2adfbe]" started-at="2025-02-26T02:22:32 EET" name="testGetUser" finished-at="2025-02-26T02:22:33 EET" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+      </class> <!-- tests.GetUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
